@@ -63,31 +63,31 @@ th.callout-inner {
   background: $callout-background;
 
   &.primary {
-    background: scale-color($primary-color, $lightness: $callout-background-fade);
+    background: color.scale($primary-color, $lightness: $callout-background-fade);
     border: $callout-border-primary;
     color: $black;
   }
 
   &.secondary {
-    background: scale-color($secondary-color, $lightness: $callout-background-fade);
+    background: color.scale($secondary-color, $lightness: $callout-background-fade);
     border: $callout-border-secondary;
     color: $black;
   }
 
   &.success {
-    background: scale-color($success-color, $lightness: $callout-background-fade);
+    background: color.scale($success-color, $lightness: $callout-background-fade);
     border: $callout-border-success;
     color: $black;
   }
 
   &.warning {
-    background: scale-color($warning-color, $lightness: $callout-background-fade);
+    background: color.scale($warning-color, $lightness: $callout-background-fade);
     border: $callout-border-warning;
     color: $black;
   }
 
   &.alert {
-    background: scale-color($alert-color, $lightness: $callout-background-fade);
+    background: color.scale($alert-color, $lightness: $callout-background-fade);
     border: $callout-border-alert;
     color: $black;
   }

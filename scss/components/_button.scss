@@ -2,6 +2,7 @@
 // zurb.com/ink/
 // Licensed under MIT Open Source
 @use "sass:color";
+@use "sass:map";
 
 ////
 /// @group button
@@ -72,13 +73,13 @@ table.button {
 
       a {
         font-family: $body-font-family;
-        font-size: map-get($button-font-size, default);
+        font-size: map.get($button-font-size, default);
         font-weight: $button-font-weight;
         color: $button-color;
         text-decoration: none;
         text-align: left;
         display: inline-block;
-        padding: map-get($button-padding, default);
+        padding: map.get($button-padding, default);
         border: 0 solid $button-background;
         border-radius: $button-radius;
       }
@@ -119,11 +120,11 @@ table.button.tiny {
   table {
     td,
     a {
-      padding: map-get($button-padding, tiny);
+      padding: map.get($button-padding, tiny);
     }
 
     a {
-      font-size: map-get($button-font-size, tiny);
+      font-size: map.get($button-font-size, tiny);
       font-weight: normal;
     }
   }
@@ -133,8 +134,8 @@ table.button.small {
   table {
     td,
     a {
-      padding: map-get($button-padding, small);
-      font-size: map-get($button-font-size, small);
+      padding: map.get($button-padding, small);
+      font-size: map.get($button-font-size, small);
     }
   }
 }
@@ -142,8 +143,8 @@ table.button.small {
 table.button.large {
   table {
     a {
-      padding: map-get($button-padding, large);
-      font-size: map-get($button-font-size, large);
+      padding: map.get($button-padding, large);
+      font-size: map.get($button-font-size, large);
     }
   }
 }

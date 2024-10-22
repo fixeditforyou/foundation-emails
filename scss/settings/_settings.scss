@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 //  Foundation for Emails Settings
 //  ------------------------------
 //
@@ -64,12 +66,12 @@ $global-font-size: 16px;
 $body-line-height: $global-line-height;
 $header-font-family: $body-font-family;
 $header-font-weight: $global-font-weight;
-$h1-font-size: floor($global-font-size * 2.125);
-$h2-font-size: floor($global-font-size * 1.875);
-$h3-font-size: floor($global-font-size * 1.75);
-$h4-font-size: floor($global-font-size * 1.5);
-$h5-font-size: floor($global-font-size * 1.2);
-$h6-font-size: floor($global-font-size * 1.125);
+$h1-font-size: math.floor($global-font-size * 2.125);
+$h2-font-size: math.floor($global-font-size * 1.875);
+$h3-font-size: math.floor($global-font-size * 1.75);
+$h4-font-size: math.floor($global-font-size * 1.5);
+$h5-font-size: math.floor($global-font-size * 1.2);
+$h6-font-size: math.floor($global-font-size * 1.125);
 $header-margin-bottom: 10px;
 $paragraph-margin-bottom: 10px;
 $small-font-size: 80%;
