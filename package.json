@@ -1,6 +1,6 @@
 {
-  "name": "foundation-emails",
-  "version": "2.5.1",
+  "name": "@fixeditforyou/foundation-emails",
+  "version": "2.6.0",
   "description": "A framework for responsive emails",
   "keywords": [
     "responsive",
