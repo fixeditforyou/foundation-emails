@@ -1364,6 +1364,7 @@ table.button.hollow table tr td a:hover {
   border-color: rgb(20.0897959184, 124.906122449, 193.9102040816);
   color: rgb(20.0897959184, 124.906122449, 193.9102040816);
 }
+
 table.button.hollow.secondary table tr td a {
   border: 1px solid #777777;
   color: #777777;
@@ -1375,17 +1376,19 @@ table.button.hollow.secondary table tr td a:hover {
   border-color: rgb(93.5, 93.5, 93.5);
   color: rgb(93.5, 93.5, 93.5);
 }
-table.button.hollow.alert table tr td a {
-  border: 1px solid #ec5840;
-  color: #ec5840;
+
+table.button.hollow.success table tr td a {
+  border: 1px solid #3adb76;
+  color: #3adb76;
 }
-table.button.hollow.alert table tr td a:visited {
-  color: #ec5840;
+table.button.hollow.success table tr td a:visited {
+  color: #3adb76;
 }
-table.button.hollow.alert table tr td a:hover {
-  border-color: rgb(226.4714285714, 50.9857142857, 22.5285714286);
-  color: rgb(226.4714285714, 50.9857142857, 22.5285714286);
+table.button.hollow.success table tr td a:hover {
+  border-color: rgb(34.9184549356, 191.0815450644, 93.1158798283);
+  color: rgb(34.9184549356, 191.0815450644, 93.1158798283);
 }
+
 table.button.hollow.warning table tr td a {
   border: 1px solid #ffae00;
   color: #ffae00;
@@ -1397,16 +1400,17 @@ table.button.hollow.warning table tr td a:hover {
   border-color: rgb(204, 139.2, 0);
   color: rgb(204, 139.2, 0);
 }
-table.button.hollow.success table tr td a {
-  border: 1px solid #3adb76;
-  color: #3adb76;
+
+table.button.hollow.alert table tr td a {
+  border: 1px solid #ec5840;
+  color: #ec5840;
 }
-table.button.hollow.success table tr td a:visited {
-  color: #3adb76;
+table.button.hollow.alert table tr td a:visited {
+  color: #ec5840;
 }
-table.button.hollow.success table tr td a:hover {
-  border-color: rgb(34.9184549356, 191.0815450644, 93.1158798283);
-  color: rgb(34.9184549356, 191.0815450644, 93.1158798283);
+table.button.hollow.alert table tr td a:hover {
+  border-color: rgb(226.4714285714, 50.9857142857, 22.5285714286);
+  color: rgb(226.4714285714, 50.9857142857, 22.5285714286);
 }
 
 table.callout {
