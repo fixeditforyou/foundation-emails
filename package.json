@@ -14,7 +14,7 @@
     "test": "gulp test",
     "dist": "gulp dist"
   },
-  "repository": "https://github.com/foundation/foundation-emails",
+  "repository": "https://github.com/fixeditforyou/foundation-emails",
   "bugs": "https://github.com/foundation/foundation-emails/issues",
   "devDependencies": {
     "browser-sync": "^2.9.10",
